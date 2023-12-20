@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+}
+nav a {
+  color: black;
+}
+nav a:hover {
+  color: red;
+}
+nav .navbar-collapse {
+  justify-content: center;
+  gap: 80px;
+}
+nav .navbar-collapse .navbar-nav .nav-item {
+  gap: 15px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.icons a {
+  color: black;
+}
+.icons a:hover {
+  color: red;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+main #new-select .col-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #new-select .new-select-cart h1 {
+  color: #0B1C39;
+  font-size: 70px;
+  font-weight: 700;
+}
+main #new-select .new-select-cart button {
+  padding: 10px 20px;
+  border: none;
+  background-color: gray;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+main #new-select .new-select-cart button:hover {
+  background-color: red;
+}
+main #new-select .new-select-img img {
+  width: 250px;
+}
+main #arrivals .arrivals-cart {
+  text-align: center;
+}
+main #arrivals .arrivals-cart span {
+  color: red;
+}
+main #arrivals .arrivals-cart img {
+  width: 100%;
+}
+main #product-sec .product-sec-head {
+  text-align: center;
+  width: 55%;
+  margin: auto;
+}
+main #product-sec .product-sec-head h3 {
+  font-weight: 700;
+}
+main #product-sec .product-sec-head p {
+  color: gray;
+}
+main #product-sec .search-box {
+  width: 35%;
+  margin: auto;
+}
+main #product-sec .search-box button {
+  padding: 5px 20px;
+}
+main #product-sec img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 790px) {
+  main #new-select .new-select-cart h1 {
+    font-size: 45px;
+  }
+  main #new-select .new-select-img img {
+    width: 120px;
+  }
+  main #arrivals .arrivals-cart h3 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 496px) {
+  main #new-select .new-select-cart h1 {
+    font-size: 35px;
+  }
+  main #new-select .new-select-img img {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 356px) {
+  main #new-select .new-select-img img {
+    width: 80px;
+  }
+  main #product img {
+    width: 230px;
+  }
+}
